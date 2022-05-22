@@ -1,0 +1,188 @@
+a{
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+}
+body{ font-family: 'Press Start 2P'; font-weight: 100; font-size: 12px; margin: 0;}
+.flexDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    background-color: rgba(39, 238, 105, 0.305);
+    height: 80px;
+}
+.coolBack{
+    background-image: url(img/2825711.gif);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    
+}
+.roll{
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 60vw;
+}
+.intro{
+    margin: 75 30 60 30;
+    padding: 40 35 30 35;
+}
+div.intro h3{
+    margin-top: 70;
+    line-height: 2;
+    letter-spacing: 1.5;
+}
+.centerText{
+    justify-content: center;
+    text-align: center;
+}
+
+.logo{
+    margin-top: 20;
+}
+.inline{
+    display: flex;
+    list-style: none;
+    margin-top: 25;
+    
+}
+.ani{
+    cursor: pointer;
+    position: relative;
+}
+.sub { 
+    display: none;
+    z-index: 99;
+    position: absolute;
+    right: 5px;
+    list-style: none;
+}
+li.ani:hover ul{
+    
+    display: block;
+}
+a:hover{
+    color: red;
+    transform: skew(-195deg);
+}
+ul.inline li{
+    font-size: 20px;
+    margin-left: 30;
+}
+footer{
+    background-color: rgba(40, 221, 101, 0.849);
+    padding: 20 0 20 0;
+}
+.nes{
+    width: auto;
+    margin: auto;
+}
+.scroller{
+    overflow-x: hidden;
+    display: flex;
+    scroll-snap-type: x mandatory;
+}
+.scrollPic{
+    scroll-snap-align: center;
+    
+    min-width: 100%;
+    min-height: 200px;
+    
+}
+.scrollPic img{
+    margin-top: 20px;
+    width: 36vw;
+    height: 40vh;
+    
+}
+.buttons{
+    border: hidden;
+    margin-top: 15px;
+}
+.butn{
+    font-size: 30px;
+    color: red;
+}
+.next{
+    margin-left: 240px;
+}
+
+@media screen and (max-width: 480px){
+    .scrollPic{
+        padding: 0 30px;
+    }
+
+}
+.form{
+   margin: 60 0 30 0;
+   padding-bottom: 10;
+}
+.form input {
+    margin: 5 3 5 3;
+    padding: 5 5 5 5;
+    width: 320;
+    background-color: rgba(51, 207, 111, 0.651);
+    border-style: hidden;
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+}
+
+.send{
+    width: 320px;
+    height: 30px;
+    margin: 20 0 0 0;
+    background-color: rgba(51, 207, 111, 0.651);
+    font-family:'Press Start 2P';
+    border-style: dashed;
+    border: 3px;
+    vertical-align: middle;
+    font-size: 10px;
+}
+.send:hover{
+    background-color: rgba(6, 197, 79, 0.75);
+    cursor: pointer;
+}
+.comment{
+    text-align: start;
+    width: 320;
+    height: 200;
+    background-color: rgba(51, 207, 111, 0.651);
+    border-style: hidden;
+    font-family:'Press Start 2P';
+    font-size: 10px;
+    padding: 5 5 5 5;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+}
+.flex{
+    width: 320;
+    display: flex;
+    justify-content: start;
+}
+.flexCen{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
